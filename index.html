@@ -1,0 +1,143 @@
+﻿<!doctype HTML>
+<html>
+<head>
+    <title>javascript</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <!--[if lt IE 9]>
+       <script src="js/html5shiv.min.js"></script>
+        <script src="js/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <h1 class="text-center">Javascript Tricks</h1>
+    <!--start capitalize section-->
+    <section class="capitalize">
+        <div class="container">
+            <h4>capitalize First Element</h4>
+            <div class="form-group">
+                <input type="text" class="form-control" placeholder="enter your paragraph" id="normalp" />
+                <input type="text" class="form-control" id="capitalp" readonly />
+                <input type="submit" value="Done" class="form-control btn-primary" id="capitalize" />
+            </div>
+        </div>
+    </section>
+    <!--end capitalize section-->
+    <!--start calc-text section-->
+    <section class="calc-text">
+        <div class="container text-center">
+            <h4>calculate text char</h4>
+            <textarea id="text-area" rows="8" maxlength="100" placeholder="type only 100 charcter"></textarea>
+            <span id="count">100</span>
+        </div>
+    </section>
+    <!--end calc-text section-->
+    <!--strat remove-placeholder section-->
+    <section class="remove-placeholder">
+        <div class="container">
+            <h4>remove placeholder onfocus</h4>
+            <input id="placeholder-text" type="text" placeholder="type your text here !" class="form-control" />
+        </div>
+    </section>
+    <!--end remove-placeholder section-->
+    <!--start type-writer section-->
+    <section class="type-writer">
+        <div class="container text-center">
+            <h4>type writer effect</h4>
+            <p id="para"></p>
+            <button id="writer-button" class="btn-primary btn-lg">start</button>
+        </div>
+    </section>
+    <!--end type-writer section-->
+    <!--start show-pass section-->
+    <section class="show-pass">
+        <div class="container">
+            <h4>show/hide password</h4>
+            <form class="form-group">
+                <input id="pass" type="password" class="form-control" placeholder="enter your password" />
+                <i id="icon2" class="fas fa-eye-slash"></i>
+                <i id="icon1" class="fas fa-eye"></i>
+            </form>
+        </div>
+    </section>
+    <!--end show-pass section-->
+    <!--start text-live section-->
+    <section class="live">
+        <div class="container">
+            <h4>show text live</h4>
+            <input id="text" type="text" class="form-control" placeholder="type your paragraph" />
+            <p id="text-live"></p>
+        </div>
+    </section>
+    <!--end text-live section-->
+    <!--start disable-rightClick section-->
+    <section id="disable-rClick">
+        <div class="container text-center">
+            <h4>disable right click in this section</h4>
+            <p>this section don't support right click</p>
+            <img src="photos/no-rclick.png" class="img-fluid" />
+        </div>
+    </section>
+    <!--end disable-rightClick section-->
+    <!--start clock section-->
+    <section class="clock">
+        <div class="container text-center">
+            <h4>dynamic clock</h4>
+            <div id="clock"></div>
+        </div>
+    </section>
+    <!--end clock section-->
+    <!--start random-img section-->
+    <section class="random-img">
+        <div class="container text-center">
+            <h4>random img every five seconds</h4>
+            <img id="rImg" src="photos/img1.jpg" class="img-fluid" />
+        </div>
+    </section>
+    <!--end random-img section-->
+    <!--start serial-number section-->
+    <section class="serial">
+        <div class="container text-center">
+            <h4>get serial number</h4>
+            <p id="serial"></p>
+            <button id="getSerial" class="btn-primary btn-lg">Get Serial</button>
+        </div>
+    </section>
+    <!--end serial-number section-->
+    <!--start timer section-->
+    <section class="timer">
+        <div class="container text-center">
+            <h4>timer count down</h4>
+            <div id="timer">
+                <div class="row">
+                    <div class="col-md-4 col-sm-12 count">
+                        <input id="hours" type="number" min="0" class="form-control" placeholder="00" />
+                        <span>H</span>
+                    </div>
+                    <div class="col-md-4 col-sm-12 count">
+                        <input id="minutes" type="number" min="0" class="form-control" placeholder="00" />
+                        <span>M</span>
+                    </div>
+                    <div class="col-md-4 col-sm-12 count">
+                        <input id="seconds" type="number" min="0" class="form-control" placeholder="00" />
+                        <span>S</span>
+                    </div>
+                </div>
+            </div>
+            <div id="timer-display"></div>
+            <button id="btn-start" class="btn-primary btn-lg">start</button>
+            <button id="btn-stop" class="btn-danger btn-lg" style="display:none;">stop</button>
+        </div>
+    </section>
+    <!--end timer section-->
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+
+    <script src="js/index.js"></script>
+</body>
+</html>

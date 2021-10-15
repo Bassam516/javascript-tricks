@@ -1,0 +1,134 @@
+html {
+   scroll-behavior: smooth;
+}
+/*start body*/
+body{
+    color: #fff;
+}
+.background1{
+    background:url(../photos/background1.jpg) no-repeat;
+    background-size:cover;
+}
+.background2 {
+    background: url(../photos/background2.png) no-repeat;
+    background-size: cover;
+}
+.background3 {
+    background: -webkit-linear-gradient(left,#e89600,#e7220e);
+}
+.background4 {
+    background: -webkit-linear-gradient(left,#b342e8,#3f08a0);
+}
+/*end body*/
+
+/*strat sections*/
+section{
+    margin:20px 0;
+}
+section .container{
+    border-bottom: 1px solid #e4e4e4;
+    padding: 20px;
+    background-color: #00000075;
+}
+section h4{
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align:center;
+}
+section p{
+    color: #dbdbdb;
+    font-size: 25px;
+    letter-spacing: 1px;
+}
+/*end sections*/
+
+/*start capitalize section*/
+.capitalize input[type="submit"]:hover{
+    cursor:pointer;
+}
+/*end capitalize section*/
+/*start calc-text section*/
+.color{
+    color:red;
+}
+#text-area{
+    width:70%;
+}
+/*end calc-text section*/
+/*start show-pass section*/
+.show-pass form {
+    position: relative;
+}
+.show-pass form i{
+    position: absolute;
+    bottom: 10px;
+    right: 15px;
+    color:#000;
+}
+.show-pass form #icon1{
+    display:none;
+}
+
+/*end show-pass section*/
+/*start timer section*/
+.timer #timer {
+    max-width: 420px;
+    margin: 20px auto;
+}
+.timer #timer input[type='number']{
+    width: 50px;
+    display: inline-block;
+    background-color: #0000;
+    border: none;
+    padding: 0 5px;
+    color: #fff;
+}
+.timer #timer input[type='number']:focus{
+    box-shadow:none;
+}
+.timer #timer .count{
+    background-color: #00000094;
+    border-radius: 20px;
+    color: #a0a0a0;
+    margin-bottom: 5px;
+}
+.timer #timer input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    cursor: pointer;
+    display: block;
+    width: 8px;
+    color: #333;
+    text-align: center;
+    position: relative;
+}
+
+.timer #timer input[type=number]:hover::-webkit-inner-spin-button {
+    background: url('http://i.stack.imgur.com/YYySO.png') no-repeat 50% 50%;
+    background-size:50%;
+    background-color:rgba(0, 0, 0, 0.00);
+    width: 14px;
+    height: 14px;
+    padding: 4px;
+    position: relative;
+    right: 4px;
+    border-radius: 28px;
+}
+.timer #timer-display{
+    margin-bottom:20px;
+}
+/*end timer section*/
+/*start scrollbar*/
+::-webkit-scrollbar{
+    width:5px;
+}
+::-webkit-scrollbar-track {
+    background-color:rgba(177, 177, 177, 0.34);
+}
+::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.70);
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: #000;
+}
+/*end scrollbar*/
